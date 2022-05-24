@@ -35,10 +35,10 @@ public class NoteActivity extends AppCompatActivity {
         ViewModelProvider viewModelProvider = new ViewModelProvider(getViewModelStore(),
                 ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication()));
         mViewModel = viewModelProvider.get(NoteActivityViewModel.class);
-        if (savedInstanceState!=null && mViewModel.IsNewlyCreated)
+        if (savedInstanceState != null && mViewModel.IsNewlyCreated)
             mViewModel.retoreState(savedInstanceState);
 
-        mViewModel.IsNewlyCreated=false;
+        mViewModel.IsNewlyCreated = false;
         //understand this part todo
         List<CourseInfo> courses = DataManager.getInstance().getCourses();
         //for spinner
@@ -117,7 +117,7 @@ public class NoteActivity extends AppCompatActivity {
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
-        if(outState!=null)
+        if (outState != null)
             mViewModel.saveState(outState);
     }
 
@@ -148,9 +148,52 @@ public class NoteActivity extends AppCompatActivity {
         } else if (id == R.id.action_Cancel) {
             IsCancel = true;
             finish();
+        } else if (id == R.id.action_next) {
+            moveNext();
+        } else if (id == R.id.action_previous) {
+            moveBack();
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    //solve next problem if it last index
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem item = menu.findItem(R.id.action_next);
+        int lastNoteIndex = DataManager.getInstance().getNotes().size() - 1;
+        item.setEnabled(notePosition < lastNoteIndex);
+        MenuItem item2 = menu.findItem(R.id.action_previous);
+        int firstNoteIndex = 0;
+        item2.setEnabled(firstNoteIndex < notePosition);
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    private void moveBack() {
+        //save any change in current note
+        saveNote();
+
+        //move note position +1-call the note in that position -save original not value -display note
+        --notePosition;
+        mNoteInfo = DataManager.getInstance().getNotes().get(notePosition);
+        saveOriginalNoteValue();
+        displayNote(spinner, textNoteTitle, textNoteText);
+        //call onPrepareOptionsMenu check position
+        invalidateOptionsMenu();
+    }
+
+
+    private void moveNext() {
+        //save any change in current note
+        saveNote();
+
+        //move note position +1-call the note in that position -save original not value -display note
+        ++notePosition;
+        mNoteInfo = DataManager.getInstance().getNotes().get(notePosition);
+        saveOriginalNoteValue();
+        displayNote(spinner, textNoteTitle, textNoteText);
+        //call onPrepareOptionsMenu check position
+        invalidateOptionsMenu();
     }
 
     private void sendEmail() {

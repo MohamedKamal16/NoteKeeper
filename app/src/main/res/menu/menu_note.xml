@@ -9,5 +9,18 @@
         app:showAsAction="never" />
     <item
         android:title="Cancel"
-        android:id="@+id/action_Cancel"/>
+        android:id="@+id/action_Cancel"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:title="Previous"
+        android:id="@+id/action_previous"
+        app:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_media_previous"/>
+    <item
+        android:title="Next"
+        android:id="@+id/action_next"
+        app:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_media_next"/>
+
 </menu>
