@@ -1,3 +1,4 @@
+/*
 package com.example.notekeeper.activity;
 
 import android.content.Intent;
@@ -45,16 +46,7 @@ public class NoteListActivity extends AppCompatActivity {
     }
 
     private void initializeDisplayContent() {
-        /*ListView listView=findViewById(R.id.list_notes);
-        List<NoteInfo> notes = DataManager.getInstance().getNotes();
 
-        listView.setOnItemClickListener((adapterView, view, position, l) -> {
-            Intent intent =new Intent(NoteListActivity.this,NoteActivity.class);
-            *//*NoteInfo note = (NoteInfo) listView.getItemAtPosition(position) ;*//*
-
-            intent .putExtra(NoteActivity.NOTE_POSITION,position);
-            startActivity(intent);
-        });*/
         mRecyclerView = findViewById(R.id.list_notes);
         LinearLayoutManager noteLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(noteLayoutManager);
@@ -74,4 +66,4 @@ public class NoteListActivity extends AppCompatActivity {
     FloatingActionButton fab;
     Toolbar toolbar;
 
-}
+}*/

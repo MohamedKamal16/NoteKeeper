@@ -14,7 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import com.example.notekeeper.NoteActivityViewModel;
+import com.example.notekeeper.viewModel.NoteActivityViewModel;
 import com.example.notekeeper.model.CourseInfo;
 import com.example.notekeeper.model.DataManager;
 import com.example.notekeeper.R;
@@ -33,7 +33,7 @@ public class NoteActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         ViewModelProvider viewModelProvider = new ViewModelProvider(getViewModelStore(),
-                ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication()));
+                (ViewModelProvider.Factory) ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication()));
         mViewModel = viewModelProvider.get(NoteActivityViewModel.class);
         if (savedInstanceState != null && mViewModel.IsNewlyCreated)
             mViewModel.retoreState(savedInstanceState);

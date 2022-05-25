@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/activity_nav_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/activity_note.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/app_bar_nav_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/content_nav_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/item_course_list.xml" value="0.2" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/item_note_list.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/nav_header_nav_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/menu/activity_nav_drawer_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/menu/nav_drawer.xml" value="0.2" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-enhancing-application-experience/NoteKeeper/app/src/main/res/layout/activity_note_list.xml" value="0.12" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-enhancing-application-experience/NoteKeeper/app/src/main/res/layout/content_note.xml" value="0.10677083333333333" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-enhancing-application-experience/NoteKeeper/app/src/main/res/layout/content_note_list.xml" value="0.21" />
