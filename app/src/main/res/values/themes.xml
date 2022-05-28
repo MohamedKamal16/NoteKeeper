@@ -22,4 +22,8 @@
     <style name="Theme.NoteKeeper.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.NoteKeeper.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AddFab" parent="@style/Widget.Design.FloatingActionButton">
+        <item name="srcCompat">@drawable/ic_baseline_add_circle_24</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
 </resources>

@@ -12,6 +12,7 @@ import androidx.test.espresso.contrib.NavigationViewActions;
 import androidx.test.espresso.contrib.RecyclerViewActions;
 import androidx.test.rule.ActivityTestRule;
 
+import com.example.notekeeper.activity.NavDrawerActivity;
 import com.example.notekeeper.model.DataManager;
 import com.example.notekeeper.model.NoteInfo;
 

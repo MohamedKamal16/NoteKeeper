@@ -3,15 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1375" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/drawable/ic_info_black_24dp.xml" value="0.1" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1375" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/drawable/sync.xml" value="0.1" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/activity_nav_drawer.xml" value="0.2" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/activity_note.xml" value="0.2" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/app_bar_nav_drawer.xml" value="0.2" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/content_nav_drawer.xml" value="0.2" />
-        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/item_course_list.xml" value="0.2" />
-        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/item_note_list.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/item_course_list.xml" value="0.5" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/item_note_list.xml" value="0.5" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/nav_header_nav_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/settings_activity.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/layout/switch_item.xml" value="0.1" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/menu/activity_nav_drawer_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/menu/menu_note.xml" value="0.2" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/menu/nav_drawer.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/xml/header_preferences.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/xml/messages_preferences.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/xml/pref_data_sync.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/xml/pref_general.xml" value="0.33" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/xml/pref_headers.xml" value="0.2" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/xml/root_preferences.xml" value="0.33" />
+        <entry key="..\:/AndroidPlursight/Course/1.java/android-application-basics-understanding/NoteKeeper/app/src/main/res/xml/sync_preferences.xml" value="0.2" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-enhancing-application-experience/NoteKeeper/app/src/main/res/layout/activity_note_list.xml" value="0.12" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-enhancing-application-experience/NoteKeeper/app/src/main/res/layout/content_note.xml" value="0.10677083333333333" />
         <entry key="..\:/AndroidPlursight/Course/1.java/android-enhancing-application-experience/NoteKeeper/app/src/main/res/layout/content_note_list.xml" value="0.21" />
